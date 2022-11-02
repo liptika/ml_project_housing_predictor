@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=["GET", "POST"])
 def index():
-    return 'Starting ML Project'
+    return 'Starting the ML Project'
 
 
 if __name__ == "__main__":
