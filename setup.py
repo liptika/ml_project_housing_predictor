@@ -1,13 +1,13 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from typing import List
 
 
 #declaring varibales for setup functions
 project_name = "housing-predictor"
-version = "0.0.1"
+version = "0.0.5"
 author = "Liptika Dhal"
 description = "This is a machine learning project of house price prediction"
-packages = ["housing"]
+#packages = ["housing"]
 requirement_file_name = "requirements.txt"
 
 def get_requirements_list()->List[str]:
@@ -20,7 +20,7 @@ setup(
     version = version,
     author = author,
     description = description,
-    packages = packages,
+    packages = find_packages(),
     install_requires = get_requirements_list()
 
 
