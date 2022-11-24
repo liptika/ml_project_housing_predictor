@@ -12,7 +12,7 @@ def index():
         housing = HousingException(e, sys)
         logging.info(housing.error_message)
         logging.info("We are testing logging")
-    return 'looger done'
+    return 'logger done'
 
 
 if __name__ == "__main__":

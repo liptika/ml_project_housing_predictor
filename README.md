@@ -25,6 +25,11 @@ conda activate venv
 pip install -r requirements.txt
 ```
 
+## command to install all the packages
+```
+pip install -e .
+```
+
 ## To Add files to git
 ```
 git add .
